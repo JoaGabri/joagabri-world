@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    scroll-snap-type: y proximity;
+}
+
+body{
+    background-color: black;
+  }
+  
+
+  .section {
+    min-height: 100vh;
+    scroll-snap-align: center; /* Centralizar o scroll no conteúdo */
+    scroll-snap-stop: always; /* Parar o scroll quando encontrar uma section */
+    visibility: hidden;
+  }
+  
+  .space {
+    margin-bottom: 10rem; /* Espaço entre cada section (ajuste conforme sua preferência) */
+  }
+
+h1{
+  font-weight: revert;
+  }
+
+
+  .navbar{
+    background-color: rgba(255, 255, 255, 0.2);
+    width:300px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease;
+    
+  }
+  .bar:hover {
+    opacity: 1;
+  }

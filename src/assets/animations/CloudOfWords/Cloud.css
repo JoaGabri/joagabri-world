@@ -1,0 +1,36 @@
+/* Defina estilos para as categorias */
+.framework {
+    color: #fa4b4b;
+}
+
+.lang {
+    color: #44C5E1;
+}
+
+.cloud{
+	color: white;
+}
+
+.art{
+	color: #f7fa4b;
+}
+
+.technique{
+	color: #4662f0;
+}
+
+.database{
+	color: #4bfa7f;
+}
+
+.API{
+	color: #bd4bfa;
+}
+
+.tech{
+	color: #f26bd7;
+}
+
+.os{
+	color: #acff70;
+}
