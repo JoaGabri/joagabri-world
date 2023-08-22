@@ -23,7 +23,6 @@ function CloudWord() {
 
   return <canvas id="myCanvas" width="400" height="400">
     <ul id="tags">
-                <li><a href="#cloud" class="API">GraphQL</a></li>
                 <li><a href="#cloud" class="API">RESTful API</a></li>
                 <li><a href="#cloud" class="API">Postman</a></li>
                 <li><a href="#cloud" class="art">After Effects</a></li>
@@ -33,15 +32,12 @@ function CloudWord() {
                 <li><a href="#cloud" class="cloud">AWS</a></li>
                 <li><a href="#cloud" class="database">ETL</a></li>
                 <li><a href="#cloud" class="database">Excel</a></li>
-                <li><a href="#cloud" class="database">MongoDB</a></li>
                 <li><a href="#cloud" class="database">MySQL</a></li>
                 <li><a href="#cloud" class="database">SAP</a></li>
                 <li><a href="#cloud" class="framework">Bootstrap</a></li>
                 <li><a href="#cloud" class="framework">Django</a></li>
                 <li><a href="#cloud" class="framework">Flask</a></li>
-                <li><a href="#cloud" class="framework">MatPlotLib</a></li>
                 <li><a href="#cloud" class="framework">Pandas</a></li>
-                <li><a href="#cloud" class="framework">Pytorch</a></li>
                 <li><a href="#cloud" class="framework">React</a></li>
                 <li><a href="#cloud" class="framework">JQuery</a></li>
                 <li><a href="#cloud" class="framework">SQLAlchemy</a></li>
@@ -51,14 +47,11 @@ function CloudWord() {
                 <li><a href="#cloud" class="lang">TypeScript</a></li>
                 <li><a href="#cloud" class="os">Linux</a></li>
                 <li><a href="#cloud" class="os">Bash/Powershell</a></li>
-                <li><a href="#cloud" class="tech">Docker</a></li>
                 <li><a href="#cloud" class="tech">NPM</a></li>
                 <li><a href="#cloud" class="tech">Vite.JS</a></li>
                 <li><a href="#cloud" class="tech">Git</a></li>
                 <li><a href="#cloud" class="technique">CI/CD</a></li>
                 <li><a href="#cloud" class="technique">Scrum</a></li>
-                <li><a href="#cloud" class="technique">TDD</a></li>
-                <li><a href="#cloud" class="technique">Unit Test</a></li>
             </ul>
   </canvas>;
 }

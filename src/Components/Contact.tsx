@@ -23,16 +23,14 @@ const Contact: React.FC = () => {
     <>  
 
     <section className="section" id="contact">
-    <h1 className="opacity text-center text-xl leading-none h-fit pb-1">
-      Contact<span className="text-blue">me</span>
-    </h1>
-    
-    <h1 className="opacity text-center text-[30px] leading-none">
-        my <a className="underline text-blue" href="https://www.linkedin.com/in/joaogabrielrocha/?locale=en_US" target="_blank">LinkedIn</a> is in the navigation bar, if you want to connect with me <br/> or want to send me a message you can call me there.
-        You can also contact me here,<br/> <span className="text-blue">do not hesitate to send me something if there is any reason</span>, <br/>as soon as I can I will answer you.
-    </h1>
+      <div className="section flex items-center justify-center">
+       <h1 className="opacity text-center text-[30px] leading-none">
+            my <a className="underline text-blue" href="https://www.linkedin.com/in/joaogabrielrocha/?locale=en_US" target="_blank">LinkedIn</a> is in the navigation bar, if you want to connect with me.<br/> 
+            <span className="text-blue">do not hesitate to send me something if there is any reason</span>, as soon as I can I will answer you.
+        </h1>
+      </div>
     <div>
-        <Form />
+
     </div>    
 
     </section>

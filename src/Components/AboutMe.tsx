@@ -29,12 +29,17 @@ const AboutMe: React.FC = () => {
         </div>
 
   <div className=" text-center">
-    <h1 className="text-[30px] leading-tight opacity text-right pr-[30px]">
-    My name is João Gabriel, and I am 23 years old. Currently, <span className="text-blue">I'm pursuing a degree in Analysis and Development of Systems.</span> I'm <span className="text-yellow">Brazilian</span>, residing in São Paulo. 
-    Ever since I was a kid, I have always loved computers. My curiosity has allowed me to better understand this aspect of myself. 
-    As long as I can remember, <span className="text-blue">I have been captivated by technology</span>. The interaction with technology has enabled me to express myself, 
-    gain knowledge, develop interests, and experience various emotions that form a <span className="text-blue">profound connection with my identity.</span> 
-    I am deeply grateful for the information I have absorbed, as it has shaped me into who I am today. <span className="text-red">I truly love the person I have become.</span>
+    <h1 className="text-[30px] leading-10 opacity text-right pr-[30px]">
+   
+ My name is João Gabriel, and I'm 23 years old. I'm studying Analysis and System Development. I live in São Paulo in Brazil. 
+
+Ever since I was a child, I loved using computers. My curiosity helped me learn more about this interest. <br/><br/>Technology has always fascinated me. 
+
+ The way I use technology helps me express myself, 
+
+learn things, develop my interests, and feel different emotions that strongly connect with my identity.
+
+I'm very thankful for the knowledge I've gained because it's made me who I am today. I really like the person I've become.
     </h1>
   </div>
 </section>

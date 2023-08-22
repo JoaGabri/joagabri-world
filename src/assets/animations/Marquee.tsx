@@ -17,12 +17,12 @@ import SectionAnimation from "./SectionsAnimation";
 
       <div className="marquee-horizontal">
       <div className="track-horizontal">
-        <section className="marquee-text ">CAT FAN | SOMETIMES A PHOTOGRAPHER | CORINTHIANO</section>
-        <div className="marquee-text ">PHOTO EDITOR | VIDEO EDITOR | AESTHETIC</div>
-        <div className="marquee-text ">LIFE ENJOYER | AN IDEA | MESSI &amp; KENDRICK FANBOY</div>
+        <section className="marquee-text ">CAT FAN | MAYBE A PHOTOGRAPHER | CORINTHIANO</section>
+        <div className="marquee-text ">PHOTO EDITOR | VIDEO EDITOR | A PERSONA</div>
+        <div className="marquee-text ">BON VIVANT | AN IDEA | MESSI &amp; KENDRICK FANBOY</div>
         <div className="marquee-text ">CAT FAN | SOMETIMES A PHOTOGRAPHER | CORINTHIANO</div>
         <div className="marquee-text ">PHOTO EDITOR | VIDEO EDITOR | AESTHETIC</div>
-        <div className="marquee-text ">LIFE ENJOYER | AN IDEA | MESSI &amp; KENDRICK FANBOY</div>
+        <div className="marquee-text ">BON VIVANT | AN IDEA | MESSI &amp; KENDRICK FANBOY</div>
       </div>
     </div>
     );

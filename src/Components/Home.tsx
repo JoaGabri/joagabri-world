@@ -30,12 +30,11 @@ const Home: React.FC = () => {
 
         <section className="section flex items-center justify-center">
           <h1 className='opacity '>
-            I am <span className="text-blue"> Joa.</span></h1>
+            I am  Joa<span className="text-blue">!</span></h1>
         </section>
 
           <section className="section flex items-center justify-center">
-            <h1 className='opacity pl-20'>A</h1>
-            <h1 className="text-lblue text-center opacity">DEV & TECH ENTHUSIAST</h1>
+            <h1 className="text-center opacity leading-none"> A<br/>DEV <span className="text-blue">&</span> TECH ENTHUSIAST</h1>
           </section>
 
         <section className="section grid grid-cols-1 place-items-center gap-0">
