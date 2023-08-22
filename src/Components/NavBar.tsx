@@ -71,7 +71,7 @@ const Navbar = () => {
     <li >
     <div className='flex items-center'>
         <div className='bg-black rounded-full h-[35px] w-[35px] flex items-center justify-center'>
-          <a href="https://www.linkedin.com/in/joaogabrielrocha/" target='_blank'>
+          <a href="https://www.linkedin.com/in/joagabri/" target='_blank'>
           <img src={linkedin} className='w-[25px] h-[25px]' />
           </a>
         </div>
