@@ -11,6 +11,7 @@ import SectionAnimation from "../assets/animations/SectionsAnimation";
 // @ts-ignore
 import OpacityAnimation from "../assets/animations/OpacityAnimation";
 import '../index.css'
+//@ts-ignore
 import Form from "./Form";
 
 const Contact: React.FC = () => {
