@@ -1,11 +1,10 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
 gsap.registerPlugin(ScrollTrigger);
 
 //this is a animation to do the smooth section change
 
-function SectionAnimation() {
+function SmoothAnimation() {
     const containers = gsap.utils.toArray(".section");
     containers.forEach((container) => {
         gsap.to(container,{
@@ -24,4 +23,4 @@ function SectionAnimation() {
 
 
 
-export default SectionAnimation;
+export default SmoothAnimation;

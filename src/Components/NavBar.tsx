@@ -1,4 +1,3 @@
-import { useEffect} from 'react';
 
 import top from "../assets/images/TOP.png"
 import about from "../assets/images/About.png"
@@ -6,14 +5,9 @@ import skills from "../assets/images/Skills.png"
 import mail from "../assets/images/mail.png"
 import linkedin from "../assets/images/linkedin.png"
 import git from "../assets/images/GitIcon.png"
-import '../index.css'
-
 
 const Navbar = () => {
 
-  useEffect(() => {
-
-  }, []);
 
 
   return (
@@ -62,7 +56,7 @@ const Navbar = () => {
     <li className="border-r border-black pr-2">
     <div className='flex items-center'>
         <div className='bg-black rounded-full h-[35px] w-[35px] flex items-center justify-center'>
-          <a href="#contact">
+          <a href="mailto:joagabri2000@hotmail.com">
           <img src={mail} className='w-[25px] h-[25px]' />
           </a>
         </div>

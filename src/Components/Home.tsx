@@ -1,48 +1,38 @@
-import React, { useEffect } from "react";
-import { gsap } from "gsap";  
-import { ScrollTrigger } from "gsap/ScrollTrigger"; 
-gsap.registerPlugin(ScrollTrigger);
-import '../index.css'
-// @ts-ignore
-import SectionAnimation from "../assets/animations/SectionsAnimation";
-// @ts-ignore
-import OpacityAnimation from "../assets/animations/OpacityAnimation";
-// @ts-ignore
-import Marquee from "../assets/animations/Marquee";
+import Marquee from "../assets/animations/Marquee/Marquee.tsx";
+import styles from '../styles.js';
 
+const Home = () => {
 
+return (
+<>
+<div className="text-xl" id="home">
+  <section className={`${styles.FlexCenter} section`}>
+    <h1 className="opacity">
+      Oi<span className="text-blue ">.</span>
+    </h1>
+  </section>
 
-const Home: React.FC = () => {
-  useEffect(() => {
+  <section className={`${styles.FlexCenter} section`}>
+    <h1 className='opacity'>
+      Eu sou o Joa<span className="text-blue">!</span>
+    </h1>
+  </section>
 
-     SectionAnimation();
-     OpacityAnimation();
-  }, []);
+  <section className={`${styles.FlexCenter} section leading-none text-center`}>
+    <h1 className="opacity align-top">
+      <span>Um</span><br/>
+      Desenvolvedor<br/>
+      <span className="text-blue">& <br/></span>
+      tech fan
+    </h1>
+  </section>
 
-  return (
-    <>
-      <div className="text-xl" id="home">
-        <section className="section flex items-center justify-center">
-          <h1 className="opacity">
-              Hi<span className="text-blue ">.</span>
-          </h1>
-        </section>
-
-        <section className="section flex items-center justify-center">
-          <h1 className='opacity '>
-            I am  Joa<span className="text-blue">!</span></h1>
-        </section>
-
-          <section className="section flex items-center justify-center">
-            <h1 className="text-center opacity leading-none"> A<br/>DEV <span className="text-blue">&</span> TECH ENTHUSIAST</h1>
-          </section>
-
-        <section className="section grid grid-cols-1 place-items-center gap-0">
-          <h1 className="text-lg">also i am too</h1>
-          <Marquee />
-        </section>
-      </div>
-    </>
+  <section className={`${styles.VerticalGrid1x1} section place-items-center`} >
+    <h1 className="text-lg">E eu também sou</h1>
+      <Marquee />
+    </section>
+</div>
+</>
   );
 };
 

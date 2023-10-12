@@ -10,15 +10,16 @@ export default {
       'red': '#FF7373',
       'lblue': 'rgba(68, 197, 225, 0.25)',
       'black': 'rgb(0,0,0)',
-      'white': 'rgb(255,255,255)'
+      'white': 'rgb(255,255,255)',
+      'green': '#44E196'
     },
     fontFamily:{
       'mont': ['Montserrat', 'sans-serif'],
       'roboto': ['Roboto', 'sans-serif']
     },
     fontSize:{
-      xl: '130px',
-      lg: '100px'
+      xl: '80px',
+      lg: '60px'
     }
 
 

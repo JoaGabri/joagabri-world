@@ -1,35 +1,18 @@
-import React, { useEffect } from "react";
-
-// GSAP ANIMATION IMPORT
-import { gsap } from "gsap";  
-import { ScrollTrigger } from "gsap/ScrollTrigger"; 
-gsap.registerPlugin(ScrollTrigger);
-// @ts-ignore
-import SectionAnimation from "../assets/animations/SectionsAnimation";
-// @ts-ignore
-import OpacityAnimation from "../assets/animations/OpacityAnimation";
-
-// STYLES IMPORT
-import '../index.css'
 import cat from "../assets/images/image 2.png"
+import  { Constants } from '../Constants/Constants.jsx'
+import styles from '../styles.js'
 
 
-const Projects: React.FC = () => {
-    useEffect(() => {
-        SectionAnimation();
-        OpacityAnimation();
-     }, []);
-
+const Projects = () => {
   return (
     <>  
     <section className="section">
-        <div className="grid grid-cols-2 grid-rows-2 gap-2 h-[100vh]">
-            <div className="flex items-center justify-center opacity" >
-                <h1 className=" text-white text-left text-xl leading-none">
+        <div className={ `${styles.Grid2x2} gap-2 h-[100vh]`}>
+            <div className= {`${styles.FlexCenter} opacity`} >
+                <h1 className=" text-xl leading-none">
 
-                    Projects<span className="text-purple">!</span>
-                    <div className="w-[520px] m-2 border-2 border-purple"></div>
-
+                    Projetos<span className="text-purple">!</span>
+                    <div className={`${styles.Border} border-purple`}></div>
                 </h1>
             </div>
 
@@ -38,7 +21,7 @@ const Projects: React.FC = () => {
         <div className="col-start-2 row-start-2 flex items-start justify-start">
 
             <h1 className="text-[30px] leading-none opacity  pr-[30px] text-center opacity">
-                    All my projects are on my <a href="https://github.com/JoaGabri" target="_blank" className="underline text-purple">GitHub</a>, all are documented and have a step by step how to install and use them. 
+                    {Constants.Projects.p1} 
             </h1> 
         </div>
 

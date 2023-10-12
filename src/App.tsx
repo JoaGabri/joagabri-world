@@ -1,30 +1,27 @@
-import './index.css'
-import Home from  './Components/Home.tsx'
-import AboutMe from './Components/AboutMe.tsx'
-import Skills from './Components/Skills.tsx'
-import Projects from './Components/Projects.tsx'
-import Contact from './Components/Contact.tsx'
-import Final from './Components/Final.tsx'
-import Navbar from './Components/NavBar.tsx'
+import React, { useEffect } from "react";
+import './index.css';
+import { AboutMe, Final,Home,NavBar,Projects,Skills} from "./Components/index.js";
+import opacity from './assets/animations/Opacity.js';
+import smooth from './assets/animations/Smooth.js';
 
 
-function App() {
 
+const App: React.FC = () => {
+  useEffect(() => {
+     opacity();
+     smooth();
+  }, []);
 
   return (
     <>
     <body>
-    <div className='min-h-screen flex items-center justify-center text-white leading-[200px]'>
-      <section>
+    <div className='text-white'>
       <Home />
       <AboutMe />
       <Skills/>
       <Projects />
-      <Contact />
       <Final />
-      <Navbar />
-
-    </section>
+      <NavBar />
   </div>
 </body>
     </>
